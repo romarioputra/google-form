@@ -1,0 +1,8 @@
+button {
+    padding: 1vh 2vw;
+    margin-top: 2vh;
+    background-color: #673ab7;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}

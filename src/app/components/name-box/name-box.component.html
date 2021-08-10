@@ -1,0 +1,7 @@
+<div class="container">
+    <h3>Nama <small>*</small></h3>
+    <select (change)="selectChangeHandler($event)" name="name" id="name">
+        <option value="active" class="choose">Choose</option>
+        <option *ngFor="let name of names" value="{{ name }}">{{ name }}</option>
+    </select>
+</div>

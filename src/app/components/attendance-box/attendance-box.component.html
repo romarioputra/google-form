@@ -1,0 +1,7 @@
+<div class="container">
+    <h3>Status Kehadiran</h3>
+    <select (change)="selectChangeHandler($event)" name="attendance" id="attendance">
+        <option value="active" class="choose">Choose</option>
+        <option *ngFor="let attendance of attendances" value="{{ attendance }}">{{ attendance }}</option>
+    </select>
+</div>
